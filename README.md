@@ -1,11 +1,11 @@
 "# FakeSraz2D" 
 
-INSTALLATION:
+## INSTALLATION:
 installation file: FakeSraz2D_Setup/Debug/FakeSraz2D_Setup.msi
 
 Just run the .msi file and follow the instructions.
 
-DESCRIPTION:
+## DESCRIPTION:
 This is a simple clone of an old game "Sraz" from 1993, a first official Croatian game.
 I don't really remember the actual rules for the game, so I improvised. Don't be mad if something
 isn't as it should be.
@@ -21,7 +21,7 @@ in any form of battle, you will receive an equipment upgrade (up to 2 times), wh
 your pawn first receiving a sword and later a shield. Equipment decreases/increases the amount of
 questions you will need to answer by 1, depending if you're attacking or defending.
 
-CONTROLS:
+## CONTROLS:
 Main menu - left click on either "NEW GAME" or "QUIT"
 Game over - left click anywhere
 Playing - red tile indicates which pawn is to be moved
@@ -29,7 +29,7 @@ Playing - red tile indicates which pawn is to be moved
 		- upon selecting a tile to move to you will be asked a question (or questions)
 			-> left click on "a)", "b)", "c)" or "d)" to select your answer
 
-FUTURE PLANS:
+## FUTURE PLANS:
 1) add a stylized title to main menu
 2) improve the way buttons work, they are basically just rectangles now
 		- current iteration requires the user to check if they are clicked and find a way to detect if
@@ -38,7 +38,7 @@ FUTURE PLANS:
 3) using shaders
 4) improve text font - plans are to use freetype library, but i still haven't 100% figured out how it
 works
-5) add more questions - a LOT more questions
+5) add more questions - a *LOT* more questions
 6) add more functionalities to the game, like modifiying the player number, modifying team colors,
 	options menu, etc.
 7) add AI
