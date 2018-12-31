@@ -60,7 +60,7 @@ TextRenderer* Game::get_text_renderer() {
 }
 
 void Game::start_game() {
-	QuestionDB *qdb = new QuestionDB("questions.bin");
+	QuestionDB *qdb = new QuestionDB("qst\\questions.bin");
 	GameObjectQuestionBox *box = new GameObjectQuestionBox(this, 400, 400, 100, 100, true);
 	if (!qdb->read_questions()) {
 		std::cout << "EXITING!\n";

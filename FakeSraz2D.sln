@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FakeSraz2D", "FakeSraz2D\Fa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E35BB931-D57B-4FC6-BA91-44CE5DB8AE74}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "FakeSraz2D_Setup", "FakeSraz2D_Setup\FakeSraz2D_Setup.vdproj", "{032CEE3A-3042-4927-BEAB-A28931267273}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -23,6 +25,10 @@ Global
 		{D8C6B0F4-E01B-4D9B-A979-9E068FC526F0}.Release|x64.Build.0 = Release|x64
 		{D8C6B0F4-E01B-4D9B-A979-9E068FC526F0}.Release|x86.ActiveCfg = Release|Win32
 		{D8C6B0F4-E01B-4D9B-A979-9E068FC526F0}.Release|x86.Build.0 = Release|Win32
+		{032CEE3A-3042-4927-BEAB-A28931267273}.Debug|x64.ActiveCfg = Debug
+		{032CEE3A-3042-4927-BEAB-A28931267273}.Debug|x86.ActiveCfg = Debug
+		{032CEE3A-3042-4927-BEAB-A28931267273}.Release|x64.ActiveCfg = Release
+		{032CEE3A-3042-4927-BEAB-A28931267273}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

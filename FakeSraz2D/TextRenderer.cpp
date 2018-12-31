@@ -9,29 +9,29 @@ TextRenderer::TextRenderer() {
 }
 
 bool TextRenderer::init_text_renderer() {
-	if (FT_Init_FreeType(&_ft)) {
+	/*if (FT_Init_FreeType(&_ft)) {
 		std::cerr << "Could not init FreeType lib!" << std::endl;
 		return false;
-	}
+	}*/
 	return true;
 }
 
 bool TextRenderer::set_font(const std::string &font_name) {
-	if (FT_New_Face(this->_ft, font_name.c_str(), 0, &_face)) {
+	/*if (FT_New_Face(this->_ft, font_name.c_str(), 0, &_face)) {
 		std::cerr << "Could not open font: " << font_name << std::endl;
 		return false;
-	}
+	}*/
 	return true;
 }
 
 void TextRenderer::set_font_size(uint8_t size) {
-	this->_font_size = size;
-	FT_Set_Pixel_Sizes(this->_face, 0, size);
+	/*this->_font_size = size;
+	FT_Set_Pixel_Sizes(this->_face, 0, size);*/
 }
 
 void TextRenderer::prepare_rendering() {
 	
-	this->_g = this->_face->glyph;
+	/*this->_g = this->_face->glyph;
 
 	GLuint tex;
 	glActiveTexture(GL_TEXTURE0);
@@ -51,11 +51,11 @@ void TextRenderer::prepare_rendering() {
 	glGenBuffers(1, &vbo);
 	glEnableVertexAttribArray(0);
 	glBindBuffer(GL_ARRAY_BUFFER, vbo);
-	glVertexAttribPointer(0, 4, GL_FLOAT, GL_FALSE, 0, 0);
+	glVertexAttribPointer(0, 4, GL_FLOAT, GL_FALSE, 0, 0);*/
 }
 
 void TextRenderer::render_text(const std::string &text, float position_X, float position_Y, float scale_X, float scale_Y) {
-	const char *p;
+	/*const char *p;
 	const char *temp = text.c_str();
 
 	for (p = temp; *p; p++) {
@@ -91,7 +91,7 @@ void TextRenderer::render_text(const std::string &text, float position_X, float 
 
 		position_X += (this->_g->advance.x / 64) * scale_X;
 		position_Y += (this->_g->advance.y / 64) * scale_Y;
-	}
+	}*/
 }
 
 void TextRenderer::simple_render_text(const std::string &text, float position_X, float position_Y) {

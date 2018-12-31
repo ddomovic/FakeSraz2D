@@ -1,15 +1,15 @@
 #pragma once
 
 #include <string>
-#include <ft2build.h>
-#include FT_FREETYPE_H
+//#include <ft2build.h>
+//#include FT_FREETYPE_H
 
 
 class TextRenderer {
 private:
-	FT_Library _ft;
-	FT_Face _face;
-	FT_GlyphSlot _g;
+	//FT_Library _ft;
+	//FT_Face _face;
+	//FT_GlyphSlot _g;
 	uint8_t _font_size;
 public:
 	TextRenderer();
