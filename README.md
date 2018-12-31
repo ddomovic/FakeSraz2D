@@ -38,7 +38,7 @@ Playing - red tile indicates which pawn is to be moved
 3) using shaders
 4) improve text font - plans are to use freetype library, but i still haven't 100% figured out how it
 works
-5) add more questions - a *LOT* more questions
+5) add more questions - a __LOT__ more questions
 6) add more functionalities to the game, like modifiying the player number, modifying team colors,
 	options menu, etc.
 7) add AI
