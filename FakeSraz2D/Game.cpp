@@ -68,7 +68,7 @@ void Game::start_game() {
 	}
 	
 	this->_all_states.push_back(new GameStateMainMenu(this, "main_menu"));
-	this->_all_states.push_back(new GameStatePlaying(this, "playing", new PlayingBoard(this, 500, 500, 150, 50, 10, 10)));
+	this->_all_states.push_back(new GameStatePlaying(this, "playing", new PlayingBoard(this, 500, 500, 150, 50, 7, 7)));
 	this->_all_states.push_back(new GameStateGameOver(this, "game_over"));
 	this->_all_states.push_back(new GameStateQuestion(this, "question", qdb, box));
 	this->_all_states.push_back(new GameStateQuestionBattle(this, "base_battle", qdb, DEFAULT_BASE_QUESTIONS, box));
